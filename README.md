@@ -29,21 +29,6 @@ The most reliable Australian weather data is hosted by Australian Bureau of Mete
 # Weather images
 Images are used _without permission_ from Google Weather, for example: [Canberra Weather](https://www.google.com.au/?gws_rd=ssl#safe=active&q=Canberra+weather).
 
-# Current progress
-- [x] App skeleton
-- [x] Basic UI prototype
-- [x] Call weather APIs for data
-- [x] Add React Redux, implement store
-- [x] Create first actions, reducers
-- [x] Implement weather service
-- [x] Add scroll view animations
-- [x] Add pull to refresh
-- [x] Implement basic settings UI prototype with navigation
-- [x] Create location and weather repositories backed by Realm
-- [ ] Create settings repositories backed by Realm
-- [ ] Call Australian postcode APIs when adding locations
-- [ ] Add support for Android devices
-
 Pocket Weather | React Weather
 -------------- | --------------
 <img src="https://raw.githubusercontent.com/stage88/react-weather/master/screenshots/pw-1.PNG" width="300"> | <img src="https://raw.githubusercontent.com/stage88/react-weather/master/screenshots/rw-1.PNG" width="300">
@@ -78,11 +63,3 @@ module.exports = {
 
 + Run `android avd` and start an emulator
 + Run `react-native run-android`
-
-## License
-
-Released under the [MIT License](http://opensource.org/licenses/MIT).
-
-# Feedback
-
-Feedback is always welcome. Feel free to contact me, I would love to know if you notice something that can be done better. Please be nice, this is my first React Native app.
